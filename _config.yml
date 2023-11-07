@@ -2,7 +2,9 @@ title: Digits
 description: A simple contact managing app
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 gems:
   - jekyll-mentions
